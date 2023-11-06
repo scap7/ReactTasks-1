@@ -1,4 +1,5 @@
 import React from "react";
+import {AiOutlinePlus,AiOutlineMinus} from "react-icons/ai";
 export default function Counter(){
     const [count,setCount]=React.useState(5);
     const incCount=()=>{
@@ -10,9 +11,9 @@ export default function Counter(){
    
     return (
         <div className="counter-container">
-            <button onClick={incCount}>plus</button>
+            <button onClick={incCount}><AiOutlinePlus/></button>
             <h1>{count}</h1>
-            <button onClick={decCount}>minus</button>
+            <button onClick={decCount}><AiOutlineMinus/></button>
         </div>
     )
 }
