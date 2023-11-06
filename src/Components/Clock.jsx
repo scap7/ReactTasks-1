@@ -13,7 +13,7 @@ export default function Clock() {
         setDate(new Date());
     },1000);
 
-   // morning 
+//    morning 
    
   const morning= new Date();
    morning.setDate(date.getDay()-1) ;morning.setHours(23);morning.setMinutes(59);morning.setSeconds(59);
