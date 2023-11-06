@@ -46,7 +46,7 @@ export default function Clock() {
     
     return (
         <div style={style} className="clock-background">
-            <h1>{date.toLocaleTimeString()}</h1>
+            <h1 className="time">{date.toLocaleTimeString()}</h1>
         </div>
     )
 

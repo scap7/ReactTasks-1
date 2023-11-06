@@ -9,6 +9,11 @@
 
   
 }
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 html{
   
   overflow: hidden;
@@ -68,14 +73,16 @@ button:hover {
  background-size: 100%  ;
  background-repeat: no-repeat;
  background-position: center;
-  
+  text-align: center;
 }
-.clock-background h1{
+.time{
   color: white;
+   padding: 91px 0px;
 }
 /*greetings*/
 .greet {
 cursor: pointer;
+padding: 2rem 2rem;
 }
 /*counter class*/
 .counter-container{
@@ -99,5 +106,10 @@ cursor: pointer;
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media (max-width:569px) {
+  .time{
+    padding: 276px 0px;
   }
 }
