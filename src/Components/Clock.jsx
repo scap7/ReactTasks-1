@@ -28,7 +28,7 @@ export default function Clock() {
    const isMorning=date>morning&&date<afterNoon;
    const isAfterNoon=date>afterNoon&&date<evening;
    const isEvening=date>evening&&date<morning;
-
+  // useEffect 
    React.useEffect(()=>{
     if(isMorning){
         setStyle({backgroundImage:"url(/images/morning.jpg)"});
