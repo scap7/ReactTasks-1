@@ -2,7 +2,7 @@ import React from "react";
 export default function Greetings(){
     const [greet,setGreet]=React.useState("good morning, Sachin");
     const textHandler=()=>{
-        greet==="good morning, Sachin"?setGreet("good evening,Sachin"):setGreet("good morning, Sachin");
+        greet==="good morning, Sachin"?setGreet("good evening, Sachin"):setGreet("good morning, Sachin");
     }
     return (
         <div>
